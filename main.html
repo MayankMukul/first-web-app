@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web app</title>
-    <script src="style.css"></script>
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Translator</h1>
-    <div class="txt-area">
-        <textarea name="input-area" id="input-area" cols="100" rows="10"></textarea>
+    <div class="txt-area area">
+        <textarea class="input-area" id="input-area"  placeholder="input your text here...."></textarea>
     </div>
-    <button onclick="">Click Me</button>
-    <div class="output-area">
-        
+    <button  id="tbtn" >Click Me</button>
+    <div class="area" id="output-area">
+        Output will be shown here...
     </div>
     <script src="app.js"></script>
 </body>
