@@ -1,26 +1,77 @@
-body {
-margin: 1rem;
-padding: 1rem;
-
-}
-
-
-
-.input-area {
-    height: 10vh;
-    width: 80%;
-    padding: 1rem;
+* {
+    --off-white:#9c9891;
     
 }
+
+body {
+    margin: 0 3rem;
+    background-color: var(--off-white);
+}
+
+.navbar {
+    margin: 0rem ;
+    padding: 3rem;
+    font-size: 2rem;
+    background-color:black;
+    color: white;
+    
+}
+
+.input-area {
+    height: 5rem;
+    width: 95%;   
+    padding: 1rem;
+    color: white;
+    
+    font-size: 15px;
+}
 .area {
-    align-items: center;
-    margin-left: 4rem;
-    padding: 2rem;
+    font-size: 15px;
+    margin: auto;
+    width: 70%;
+    
+}
+
+.outputarea {
+    border: solid 1px ;
+    color: white;
+    background-color: black;
+    height: 5rem;
+    margin-top: 1rem ;
+    padding: 1rem;
+}
+
+p {
+    text-align: center;
+    padding: 1rem;
+    font-size: 15px;
 }
 
 button {
-    margin: 1rem;
+    font-size: medium;
+    
+    
+    margin-top: 2rem;
+    
     border-radius: 1rem;
-    width: 8rem;
-    height: 2rem;
+    width: 10rem;
+    height: 3rem;
+}
+
+footer {
+    text-align: center;
+    display: block;
+    
+    background-color: black;
+    color: white;
+   margin-top: 3.6rem;
+   margin-bottom: 0;
+    height: 3rem;
+    padding: 1rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
