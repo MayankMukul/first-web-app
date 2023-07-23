@@ -3,8 +3,8 @@ var inputvalue = document.querySelector("#input-area")
 var outputvalue = document.querySelector("#output-area")
 
 var newUrl;
-var serverUrl="https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json" //test server
-//var serverUrl = "https://api.funtranslations.com/translate/pirate.json"   //main server
+//var serverUrl="https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json" //test server
+var serverUrl = "https://api.funtranslations.com/translate/pirate.json"   //main server
 
 function constructUrl(text) {
     return serverUrl + "?text=" + text; 
