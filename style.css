@@ -20,16 +20,13 @@ body {
 .input-area {
     height: 5rem;
     width: 95%;   
-    padding: 1rem;
-    color: white;
-    
+    padding: 1rem; 
     font-size: 15px;
 }
 .area {
     font-size: 15px;
     margin: auto;
     width: 70%;
-    
 }
 
 .outputarea {
@@ -49,10 +46,7 @@ p {
 
 button {
     font-size: medium;
-    
-    
     margin-top: 2rem;
-    
     border-radius: 1rem;
     width: 10rem;
     height: 3rem;
@@ -61,14 +55,12 @@ button {
 footer {
     text-align: center;
     display: block;
-    
     background-color: black;
     color: white;
    margin-top: 3.6rem;
    margin-bottom: 0;
     height: 3rem;
     padding: 1rem;
-
 }
 
 a {
